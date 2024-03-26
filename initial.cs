@@ -46,7 +46,7 @@ namespace POP.OutGame.API
 					var task = OutGameService.Instance.Leaderboard.Get.Get(new LeaderboardInput
 						{
 							CharacterId = null,
-							ModeId = null,
+							ModeId = GameModeType.CapturePoint,
 							Region = LeaderboardRegionType.Global
 						}
 					);
